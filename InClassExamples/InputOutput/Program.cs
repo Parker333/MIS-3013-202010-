@@ -4,6 +4,7 @@ namespace InputOutput
 {
     class Program
     {
+        //DAY 1
         const string CLASS_NAME = "MIS 3013";
         static void Main(string[] args)
         {
@@ -31,6 +32,7 @@ namespace InputOutput
 
 
             Console.WriteLine(firstName + " " + lastName + " is teaching " + CLASS_NAME + " with GPA of " + gpa.ToString("N2"));
+
         }
     }
 }
