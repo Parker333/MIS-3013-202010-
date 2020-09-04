@@ -71,15 +71,6 @@ namespace CoonditionalStatements
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"Total:           {total.ToString("C")}");
 
-
-        
-        
-        
-        
-        
-        
-        
-        
         
         }
     }
