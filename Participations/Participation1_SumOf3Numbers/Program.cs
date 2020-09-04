@@ -19,7 +19,7 @@ namespace SumOf3
 
             if (number1 == 1)
             {
-                number21 = true;
+                number11 = true;
             }
             else
             {
