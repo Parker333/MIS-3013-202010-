@@ -63,8 +63,8 @@ namespace SumOf3
             double sum = (number1 + number2 + number3);
             double megevalue = (sum * LUCKY_NUMBER);
 
-            Console.WriteLine("Sum: " + sum.ToString("C3"));
-            Console.WriteLine("Lucky Number: " + megevalue.ToString("C3"));
+            Console.WriteLine("Sum: " + sum.ToString("F3"));
+            Console.WriteLine("Lucky Number: " + megevalue.ToString("F3"));
 
 
 
