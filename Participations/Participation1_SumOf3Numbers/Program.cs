@@ -65,7 +65,7 @@ namespace SumOf3
 
             Console.WriteLine("Sum: " + sum.ToString("F3"));
             Console.WriteLine("Lucky Number: " + megevalue.ToString("F3"));
-
+                
 
 
             }
