@@ -26,9 +26,9 @@ namespace Homework_1_Sale_Total
             double tax = (subtotal * Sales_Tax);
             double total = (subtotal + tax);
 
-            Console.WriteLine("Your subtotal for your bill is " + subtotal.ToString("N2"));
-            Console.WriteLine("Your sales tax for your bill is " + tax.ToString("N2"));
-            Console.WriteLine("Your total for your bill is " + total.ToString("N2"));
+            Console.WriteLine("Your subtotal for your bill is " + subtotal.ToString("C2"));
+            Console.WriteLine("Your sales tax for your bill is " + tax.ToString("C2"));
+            Console.WriteLine("Your total for your bill is " + total.ToString("C2"));
 
 
         }
