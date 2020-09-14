@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Home_1_Student_Grade
+namespace Parker_Hallows
 {
     class Program
     {
