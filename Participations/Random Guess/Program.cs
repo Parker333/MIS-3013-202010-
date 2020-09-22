@@ -19,22 +19,21 @@ namespace Loops
             int Y = Convert.ToInt32(Console.ReadLine());
 
             Random rnd = new Random();
-            int number = rnd.Next(X, (Y + 1));
+            int number = rnd.Next(X, (Y + 1)); 
 
-            int guesses = 0;
-            double guess;
+            int guess;
 
             do
             {
-                guesses += 1;
                 Console.WriteLine($"Please guess a number between or eqaul to your min ({X}) and max ({Y}).");
-                guess = Convert.ToDouble(Console.ReadLine());
+                guess = Convert.ToInt32(Console.ReadLine());
 
             } while (guess != number);
 
             Console.WriteLine(" ");
             Console.WriteLine($"The random number was {number} and your guess was {guess}, Congratulations!");
             Console.ReadKey();
+
         }
     }
 }
