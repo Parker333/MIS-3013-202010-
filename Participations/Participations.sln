@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coin Flip", "Coin Flip\Coin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional_FizzBuzz", "..\Conditional_FizzBuzz\Conditional_FizzBuzz\Conditional_FizzBuzz.csproj", "{F6C534C9-D825-4159-8C5A-F7DD9477B8AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Guess", "Loops\Random Guess.csproj", "{1D0C00E4-9048-43EB-9AF5-755B58D08C4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random Guess", "Random Guess\Random Guess.csproj", "{1D0C00E4-9048-43EB-9AF5-755B58D08C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
