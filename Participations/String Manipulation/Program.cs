@@ -23,9 +23,11 @@ namespace String_Manipulation
             Console.WriteLine("What word do you want to change it to?");
             string replace = Convert.ToString(Console.ReadLine());
 
+            bool search = programming.Contains(find);
 
+            string found;
 
-
+            //This is as far as I could get by myself, but I wanted to turn something in.
 
             Console.ReadKey();
         }
