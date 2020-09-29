@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{069A0028-1597-4F1D-BF1E-F3062484BDAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{50489E28-2C9D-4C04-A80E-248321DA4306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{069A0028-1597-4F1D-BF1E-F3062484BDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069A0028-1597-4F1D-BF1E-F3062484BDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069A0028-1597-4F1D-BF1E-F3062484BDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50489E28-2C9D-4C04-A80E-248321DA4306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50489E28-2C9D-4C04-A80E-248321DA4306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50489E28-2C9D-4C04-A80E-248321DA4306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50489E28-2C9D-4C04-A80E-248321DA4306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

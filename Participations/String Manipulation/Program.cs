@@ -20,6 +20,7 @@ namespace String_Manipulation
             string find = Console.ReadLine();
 
             Console.WriteLine("What word do you want to change it to?");
+
             string replace = Console.ReadLine();
 
             if (programming.Contains(find) == true)
@@ -37,7 +38,6 @@ namespace String_Manipulation
                 }
             }
 
-            
 
             Console.ReadKey();
         }
