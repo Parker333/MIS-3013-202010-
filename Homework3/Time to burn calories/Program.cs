@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection.Metadata;
 
-namespace Time_to_burn_calories
+namespace Parker_Hallows
 {
     class Program
     {
@@ -9,7 +9,7 @@ namespace Time_to_burn_calories
         {
             const double CalPM = 3.9;
 
-            Console.WriteLine("How many calories do you wish to burn this workout?");
+            Console.WriteLine("How many calories do you wish to burn this workout session?");
             double goal = Convert.ToDouble(Console.ReadLine());
 
             double calories = 0;
@@ -19,7 +19,7 @@ namespace Time_to_burn_calories
             {
                 minutes++;
                 calories = calories + CalPM;
-                Console.WriteLine($"After {minutes} minutes, you have burned {calories.ToString("N2")} calories.");
+                Console.WriteLine($"After {minutes} minutes, you have burned {calories.ToString("N1")} calories.");
 
             } while (calories < goal);
   
