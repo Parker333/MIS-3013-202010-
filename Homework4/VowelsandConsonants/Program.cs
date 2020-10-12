@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 
-namespace VowelsandConsonants
+namespace Parker_Hallows
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please input a sentance.");
+            string sentence = Console.ReadLine();
             int vowels = 0;
             int consonants = 0;
-
-            Console.WriteLine("Please input a sentance");
-            string sentence = Console.ReadLine();
 
             for (int i = 0; i < sentence.Length; i++)
             {
