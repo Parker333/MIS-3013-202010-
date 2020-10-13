@@ -8,7 +8,7 @@ namespace Parker_Hallows
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please input a sentance.");
+            Console.WriteLine("Please input a sentence.");
             string sentence = Console.ReadLine();
             int vowels = 0;
             int consonants = 0;
@@ -25,7 +25,7 @@ namespace Parker_Hallows
                 }
             }
             Console.WriteLine($"There were {vowels} vowels in the sentence.");
-            Console.WriteLine($"There were {consonants} conconants in the sentence.");
+            Console.WriteLine($"There were {consonants} consonants in the sentence.");
 
         }
     }
