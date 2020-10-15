@@ -11,14 +11,20 @@ namespace CSV_Processing_2
     {
         static void Main(string[] args)
         {
-            string filepath = @"SalesJan2009.csv";
+            var number = 1;
+            string userinput = "";
 
-            string[] lines = File.ReadAllLines(filepath);
-
-            for (int i = 0; i < filepath.Length; i++)
+            do
             {
+                Console.WriteLine("Do you want to add to number?");
+                userinput = Console.ReadLine();
+                number++;
 
-            }
+            } while (userinput=="Yes");
+
+            Console.WriteLine(number);
+            
+ 
 
            
 

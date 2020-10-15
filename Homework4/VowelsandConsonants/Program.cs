@@ -19,7 +19,7 @@ namespace Parker_Hallows
                 {
                     vowels++;
                 }
-                else if (sentence[i] >= 'a' && sentence[i] >= 'z'|| sentence[i] >= 'A' && sentence[i] >='Z')
+                else if (sentence[i] >= 'a' && sentence[i] <= 'z'|| sentence[i] >= 'A' && sentence[i] <='Z')
                 {
                     consonants++;
                 }
