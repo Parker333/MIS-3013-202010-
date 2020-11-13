@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV Processing 2", "CSV Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Method", "Simple Method\Simple Method.csproj", "{533F9414-3A82-4C85-9A46-5885F6B04F1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle and Circle", "Rectangle and Circle\Rectangle and Circle.csproj", "{2DEC8EE6-F260-4459-BFFB-ACAF1B82CBD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{533F9414-3A82-4C85-9A46-5885F6B04F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{533F9414-3A82-4C85-9A46-5885F6B04F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{533F9414-3A82-4C85-9A46-5885F6B04F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEC8EE6-F260-4459-BFFB-ACAF1B82CBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEC8EE6-F260-4459-BFFB-ACAF1B82CBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEC8EE6-F260-4459-BFFB-ACAF1B82CBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEC8EE6-F260-4459-BFFB-ACAF1B82CBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
