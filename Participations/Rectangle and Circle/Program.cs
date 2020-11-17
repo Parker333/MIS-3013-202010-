@@ -31,8 +31,6 @@ namespace Rectangle_and_Circle
 
             Console.WriteLine($"The area of a rectangle with a length of {rectangle2.Length2} and a width of {rectangle2.Width2} is {rectangle2.CalculateArea2:N2} and a perimeter of {rectangle2.CalculatePerimeter2:N2}.");
 
-
-
             Console.ReadKey();
         }
     }
