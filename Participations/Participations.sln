@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle and Circle", "Rec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toys", "Toys\Toys.csproj", "{EAFBE492-017A-4B7C-AA3F-5FD5CA1A94A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBox", "TextBox\TextBox.csproj", "{04D06A22-77F1-41B6-9B1E-49C6C6D04D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{EAFBE492-017A-4B7C-AA3F-5FD5CA1A94A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFBE492-017A-4B7C-AA3F-5FD5CA1A94A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFBE492-017A-4B7C-AA3F-5FD5CA1A94A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D06A22-77F1-41B6-9B1E-49C6C6D04D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D06A22-77F1-41B6-9B1E-49C6C6D04D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D06A22-77F1-41B6-9B1E-49C6C6D04D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D06A22-77F1-41B6-9B1E-49C6C6D04D36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
